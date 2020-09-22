@@ -10,6 +10,7 @@
 		$scope.list = '';
 		$scope.msg = '';
 
+
 		$scope.checkItems = function () {
 			if($scope.list !== '') {
 				var arr = $scope.list.split(',');
